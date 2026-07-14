@@ -1,10 +1,8 @@
-npm install express
-
 {
   "name": "shopeasy",
   "version": "1.0.0",
   "description": "Ecommerce App",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -19,5 +17,8 @@ npm install express
   "bugs": {
     "url": "https://github.com/vibushnan39/shopeasy/issues"
   },
-  "homepage": "https://github.com/vibushnan39/shopeasy#readme"
+  "homepage": "https://github.com/vibushnan39/shopeasy#readme",
+  "dependencies": {
+    "express": "^5.2.1"
+  }
 }
